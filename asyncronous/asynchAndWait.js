@@ -2,6 +2,7 @@ function fetchData(){
     return new Promise(
         (resolve) => {
             setTimeout( () => console.log("Data Fetched Successfully...."));
+            resolve("Done !");
         }
     );
 };
