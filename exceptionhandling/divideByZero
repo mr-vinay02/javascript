@@ -1,0 +1,10 @@
+let number = 100 ;
+
+try{
+    let result = number / 0 ;
+    console.log(result);
+}catch(error){
+    console.log("Error caused :" +error);
+}finally{
+    console.log("program complete")
+}
